@@ -12,6 +12,11 @@ Three-dimensional tic-tac-toe in a single HTML file. No dependencies — open `i
 - 🤖 Modes: **Vs AI** (minimax on 3×3×3), **2, 3 (▲) or 4 (□) players**
 - 🤖🤖 **Demo mode** — AI plays against itself (2–4 players), adjustable speed, auto-restart
 - ⚡ **Chaos mode** — a random *filled* cell is cleared periodically (frequency: rare / medium / frequent)
+- 🎚 **AI difficulty** (Vs AI): *Easy* (blunders often), *Medium*, *Hard* (minimax, near-optimal)
+- ↩ **Undo** — takes back your move (and the AI's reply); keys **U**/**Backspace**, button in controls
+- 📊 **Score persistence** — scoreboard survives reloads (localStorage); «Reset score» button to zero it
+- 🌟 **Win FX** — 3D light beam along the winning line + confetti burst
+- ✨ Last move is subtly highlighted; human moves in Vs AI mode have a natural thinking delay
 - 🌌 Space background: stars, nebulae, vignette
 - 🔊 Move / win / draw / chaos sounds (Web Audio API, no audio files)
 - 🌍 UI languages: 🇷🇺 Russian, 🇬🇧 English, 🇪🇸 Spanish, 🇨🇳 Chinese
@@ -41,6 +46,8 @@ The `android/` folder contains an Android Studio project: the game is loaded in 
 | Board size / Размер поля | 3×3×3 / 5×5×5 / 7×7×7 (bottom-left / низ-лево) |
 | Chaos / Хаос | ⚡ On/Off + frequency / Вкл + частота (bottom-right / низ-право) |
 | Sound / Звук | 🔊 (top-right / верх-право) |
+| Undo / Отмена хода | U or Backspace / U или Backspace |
+| New game / Новая игра | R or К / R or К |
 
 ## AI / ИИ
 
