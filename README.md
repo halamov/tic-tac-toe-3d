@@ -1,5 +1,7 @@
 # Tic-Tac-Toe 3D / 三维井字棋
 
+![Tic-Tac-Toe 3D screenshot](docs/screenshot.png)
+
 Three-dimensional tic-tac-toe in a single HTML file. No dependencies — open `index.html` in any browser.
 
 Трёхмерная «крестики-нолики» в одном HTML-файле. Без зависимостей — откройте `index.html` в любом браузере.
